@@ -1,20 +1,23 @@
-Bookshelf API Submission — Dicoding Backend
-Requirement
-Node.js
-npm
+# Bookshelf API Submission — Dicoding Backend
+This is my submission project for Dicoding Backend Developer Learning Path.
+All mandatory & optional requirements are fully implemented.
+All Postman automated tests passed
 
-Install & Run
-bash
-Copy
-Edit
+Features:
+- RESTful API with full CRUD
+- Query parameters filtering
+- Full validation
+- Modularization
+
+Build with:
+- Node.js
+- Hapi.js Framework
+
+---
+
+## How to Run
+
+```bash
 npm install
 npm run start
-Server berjalan di http://localhost:9000
-
-Features
-Add Book (POST /books)
-Get All Books (GET /books)
-Get Book By ID (GET /books/{bookId})
-Update Book (PUT /books/{bookId})
-Delete Book (DELETE /books/{bookId})
-Query Parameters (GET /books?name=&reading=&finished=)
+Server runs at: http://localhost:9000

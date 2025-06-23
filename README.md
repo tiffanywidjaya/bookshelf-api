@@ -1,23 +1,33 @@
-# Bookshelf API Submission — Dicoding Backend
-This is my submission project for Dicoding Backend Developer Learning Path.
-All mandatory & optional requirements are fully implemented.
-All Postman automated tests passed
+# Submission Bookshelf API — Dicoding Backend
 
-Features:
-- RESTful API with full CRUD
-- Query parameters filtering
-- Full validation
-- Modularization
+Ini adalah proyek submission saya untuk kelas **Belajar Membuat Aplikasi Back-End untuk Pemula** di Dicoding.
 
-Build with:
+Seluruh fitur **wajib** maupun **opsional** telah diimplementasikan sepenuhnya.  
+Seluruh pengujian otomatis di Postman berhasil **PASSED**.
+
+---
+
+## Fitur
+
+- RESTful API dengan fungsi CRUD lengkap
+- Query parameter filtering (name, reading, finished)
+- Validasi input sesuai ketentuan
+- Modularisasi kode (handler, routes, server)
+
+---
+
+## Dibangun dengan:
+
 - Node.js
 - Hapi.js Framework
 
 ---
 
-## How to Run
+## Cara Menjalankan
 
 ```bash
 npm install
 npm run start
-Server runs at: http://localhost:9000
+```
+
+Server berjalan pada: http://localhost:9000
